@@ -31,7 +31,7 @@ To effectively assess player performance and the shot quality, 4 different perfo
 ## 3. Xcode: TENNIS MOTION
 The code files hierarchy and the role of each code files will be presented in form of workflow diagrams for both the iWatch and the iPhone. The main role of the iWatch is to record the data with the 3 sensors mentioned, detect and segmend a shot, followed by the transmission of the shot data packet to the iPhone. On the other hand, the iPhone will be responsible for feature extraction, stroke type and player level classifications, as well as performance parameter derivations. 
 ### 3.1. iWatch
-![My Image](Watch_workflow.jpg)
+![My Image](Watch_workflow.png)
 ### 3.2. iPhone
 
 
