@@ -7,7 +7,7 @@ The overarching aim of the project is to effectively build a machine learning mo
 ## 2. MATLAB: Code Trial
 ### 2.1. Data Processing
 The processing of the data was done in several steps:
-* Data Collection: Stroke signals were recorded from the iWatch Series 3 and the application "SensorLog". The accelerometer, gravimeter, and gyroscope signals in X, Y, and Z axes were extracted from the collected data for further processing. 
+* Data Collection: Stroke signals were recorded from the iWatch Series 3 and the application "SensorLog". The accelerometer, gravimeter, and gyroscope signals in X, Y, and Z axes were extracted from the collected data for further processing. The data collection files can be seen in https://imperialcollegelondon.box.com/s/5x2wljxqv1qz90n1nuqus4mm7lkai1d7
 * Shot Detection and Segmentation: Done with the functions segment_x_trial, where x is the sensor name (accelerometer, gyroscope, or gravimeter). All shot detection algorithms were based off the acceleration signal, as the signal peak is expected to be the most representative of the racket-ball impact. The volley extensions of these functions were applied to the volley shots, as they are much shorter and exhibit different peak values than the other stroke classes.
 * Pairwise Cross-Correlation Averaging: Done with the ensemble functions final_step_cross_correlation.m, iterative_cross_correlation.m, and cross_correlation_av.m. This is to ensure that all signal peaks are perfectly aligned for cleaner data. 
 * Parameter Extaction: Instead of feeding the Classifier with the entire signal (120 sample points/signal), parameter extraction was performed in order to reduce computational power requirements. This was done via the MaxMin_trial.m function. The main parameters extracted are:
