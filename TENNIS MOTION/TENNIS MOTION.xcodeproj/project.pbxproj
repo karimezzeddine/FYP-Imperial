@@ -1,0 +1,1324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0467BB9D284A6B03006E1AAF /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467BB9C284A6B02006E1AAF /* Accessibility.framework */; };
+		0467BB9F284A6B54006E1AAF /* Accessibility.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0467BB9E284A6B25006E1AAF /* Accessibility.framework */; };
+		0467BBA3284BD141006E1AAF /* Level_Bd_grav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBA2284BD13D006E1AAF /* Level_Bd_grav.mlmodel */; };
+		0467BBA5284BD147006E1AAF /* Level_S_grav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBA4284BD147006E1AAF /* Level_S_grav.mlmodel */; };
+		0467BBA7284BD151006E1AAF /* Level_BdV_grav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBA6284BD151006E1AAF /* Level_BdV_grav.mlmodel */; };
+		0467BBA9284BD155006E1AAF /* Level_Fd_grav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBA8284BD155006E1AAF /* Level_Fd_grav.mlmodel */; };
+		0467BBAB284BD15B006E1AAF /* Level_FdV_grav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBAA284BD15B006E1AAF /* Level_FdV_grav.mlmodel */; };
+		0467BBAD284BD163006E1AAF /* Shot_classifier_grav.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBAC284BD163006E1AAF /* Shot_classifier_grav.mlmodel */; };
+		0467BBAF284C079C006E1AAF /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0467BBAE284C079B006E1AAF /* ViewController2.swift */; };
+		047812A52847A28F00B59521 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812A42847A28F00B59521 /* AppDelegate.swift */; };
+		047812A72847A28F00B59521 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812A62847A28F00B59521 /* SceneDelegate.swift */; };
+		047812A92847A28F00B59521 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812A82847A28F00B59521 /* ViewController.swift */; };
+		047812AC2847A28F00B59521 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047812AA2847A28F00B59521 /* Main.storyboard */; };
+		047812AE2847A29200B59521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047812AD2847A29200B59521 /* Assets.xcassets */; };
+		047812B12847A29200B59521 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047812AF2847A29200B59521 /* LaunchScreen.storyboard */; };
+		047812BC2847A29300B59521 /* TENNIS_MOTIONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812BB2847A29300B59521 /* TENNIS_MOTIONTests.swift */; };
+		047812C62847A29300B59521 /* TENNIS_MOTIONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812C52847A29300B59521 /* TENNIS_MOTIONUITests.swift */; };
+		047812C82847A29300B59521 /* TENNIS_MOTIONUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812C72847A29300B59521 /* TENNIS_MOTIONUITestsLaunchTests.swift */; };
+		047812CC2847A29300B59521 /* TENNIS MOTION WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 047812CB2847A29300B59521 /* TENNIS MOTION WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		047812D22847A29300B59521 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047812D02847A29300B59521 /* Interface.storyboard */; };
+		047812D42847A29400B59521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047812D32847A29400B59521 /* Assets.xcassets */; };
+		047812DA2847A29500B59521 /* TENNIS MOTION WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 047812D92847A29500B59521 /* TENNIS MOTION WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		047812DF2847A29500B59521 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812DE2847A29500B59521 /* InterfaceController.swift */; };
+		047812E12847A29500B59521 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812E02847A29500B59521 /* ExtensionDelegate.swift */; };
+		047812E32847A29500B59521 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812E22847A29500B59521 /* NotificationController.swift */; };
+		047812E52847A29500B59521 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812E42847A29500B59521 /* ComplicationController.swift */; };
+		047812E72847A29600B59521 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047812E62847A29600B59521 /* Assets.xcassets */; };
+		047812F32847A29600B59521 /* TENNIS_MOTION_WatchKit_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812F22847A29600B59521 /* TENNIS_MOTION_WatchKit_AppTests.swift */; };
+		047812FD2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812FC2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITests.swift */; };
+		047812FF2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047812FE2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITestsLaunchTests.swift */; };
+		0478131A2847A2DA00B59521 /* WorkoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047813192847A2DA00B59521 /* WorkoutManager.swift */; };
+		0478131C2847A2EA00B59521 /* DeviceMotionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0478131B2847A2EA00B59521 /* DeviceMotionManager.swift */; };
+		049376902847BB4300E80C6E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0478131F2847ACFF00B59521 /* HealthKit.framework */; };
+		049376972847C50600E80C6E /* WatchConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047813212847AE5800B59521 /* WatchConnectivityManager.swift */; };
+		0493769A2847CD2D00E80C6E /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049376992847CD2D00E80C6E /* HealthKit.framework */; };
+		0493769C2847D51100E80C6E /* Shot_classifier 2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0493769B2847D51100E80C6E /* Shot_classifier 2.mlmodel */; };
+		0493769E2847FC0400E80C6E /* DataProcessingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0493769D2847FC0300E80C6E /* DataProcessingManager.swift */; };
+		049376A02848BAD300E80C6E /* Shot_classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0493769F2848BAD300E80C6E /* Shot_classifier.mlmodel */; };
+		049376A22848DDB200E80C6E /* Level_Fd.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049376A12848DDB200E80C6E /* Level_Fd.mlmodel */; };
+		049376A42848DDB700E80C6E /* Level_Bd.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049376A32848DDB700E80C6E /* Level_Bd.mlmodel */; };
+		049376A62848DDBF00E80C6E /* Level_FdV.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049376A52848DDBF00E80C6E /* Level_FdV.mlmodel */; };
+		049376A82848DDC500E80C6E /* Level_BdV.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049376A72848DDC500E80C6E /* Level_BdV.mlmodel */; };
+		049376AA2848DDC800E80C6E /* Level_S.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049376A92848DDC800E80C6E /* Level_S.mlmodel */; };
+		049376AC2848DE7400E80C6E /* MachineLearningManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049376AB2848DE7400E80C6E /* MachineLearningManager.swift */; };
+		049AA4AA284E79CE002C7A09 /* tennis.png in Resources */ = {isa = PBXBuildFile; fileRef = 049AA4A9284E79CE002C7A09 /* tennis.png */; };
+		049AA4AC2850D31F002C7A09 /* Shot_classifier_grav_SVM copy.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049AA4AB2850D31D002C7A09 /* Shot_classifier_grav_SVM copy.mlmodel */; };
+		049AA4AE2850E226002C7A09 /* CART_classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 049AA4AD2850E225002C7A09 /* CART_classifier.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047812B82847A29300B59521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047812992847A28F00B59521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047812A02847A28F00B59521;
+			remoteInfo = "TENNIS MOTION";
+		};
+		047812C22847A29300B59521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047812992847A28F00B59521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047812A02847A28F00B59521;
+			remoteInfo = "TENNIS MOTION";
+		};
+		047812CD2847A29300B59521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047812992847A28F00B59521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047812CA2847A29300B59521;
+			remoteInfo = "TENNIS MOTION WatchKit App";
+		};
+		047812DB2847A29500B59521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047812992847A28F00B59521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047812D82847A29500B59521;
+			remoteInfo = "TENNIS MOTION WatchKit Extension";
+		};
+		047812EF2847A29600B59521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047812992847A28F00B59521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047812D82847A29500B59521;
+			remoteInfo = "TENNIS MOTION WatchKit Extension";
+		};
+		047812F92847A29600B59521 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047812992847A28F00B59521 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047812CA2847A29300B59521;
+			remoteInfo = "TENNIS MOTION WatchKit App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		047813052847A29600B59521 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				047812DA2847A29500B59521 /* TENNIS MOTION WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047813092847A29600B59521 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				047812CC2847A29300B59521 /* TENNIS MOTION WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0467BB9C284A6B02006E1AAF /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/Accessibility.framework; sourceTree = DEVELOPER_DIR; };
+		0467BB9E284A6B25006E1AAF /* Accessibility.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accessibility.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/Accessibility.framework; sourceTree = DEVELOPER_DIR; };
+		0467BBA2284BD13D006E1AAF /* Level_Bd_grav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Level_Bd_grav.mlmodel; path = ../../Level_Bd_grav.mlmodel; sourceTree = "<group>"; };
+		0467BBA4284BD147006E1AAF /* Level_S_grav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Level_S_grav.mlmodel; path = ../../Level_S_grav.mlmodel; sourceTree = "<group>"; };
+		0467BBA6284BD151006E1AAF /* Level_BdV_grav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Level_BdV_grav.mlmodel; path = ../../Level_BdV_grav.mlmodel; sourceTree = "<group>"; };
+		0467BBA8284BD155006E1AAF /* Level_Fd_grav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Level_Fd_grav.mlmodel; path = ../../Level_Fd_grav.mlmodel; sourceTree = "<group>"; };
+		0467BBAA284BD15B006E1AAF /* Level_FdV_grav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Level_FdV_grav.mlmodel; path = ../../Level_FdV_grav.mlmodel; sourceTree = "<group>"; };
+		0467BBAC284BD163006E1AAF /* Shot_classifier_grav.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Shot_classifier_grav.mlmodel; path = ../../Shot_classifier_grav.mlmodel; sourceTree = "<group>"; };
+		0467BBAE284C079B006E1AAF /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		047812A12847A28F00B59521 /* TENNIS MOTION.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TENNIS MOTION.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812A42847A28F00B59521 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047812A62847A28F00B59521 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		047812A82847A28F00B59521 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047812AB2847A28F00B59521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047812AD2847A29200B59521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047812B02847A29200B59521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047812B22847A29200B59521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047812B72847A29300B59521 /* TENNIS MOTIONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TENNIS MOTIONTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812BB2847A29300B59521 /* TENNIS_MOTIONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENNIS_MOTIONTests.swift; sourceTree = "<group>"; };
+		047812C12847A29300B59521 /* TENNIS MOTIONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TENNIS MOTIONUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812C52847A29300B59521 /* TENNIS_MOTIONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENNIS_MOTIONUITests.swift; sourceTree = "<group>"; };
+		047812C72847A29300B59521 /* TENNIS_MOTIONUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENNIS_MOTIONUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		047812CB2847A29300B59521 /* TENNIS MOTION WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TENNIS MOTION WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812D12847A29300B59521 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		047812D32847A29400B59521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047812D92847A29500B59521 /* TENNIS MOTION WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "TENNIS MOTION WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812DE2847A29500B59521 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		047812E02847A29500B59521 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		047812E22847A29500B59521 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		047812E42847A29500B59521 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		047812E62847A29600B59521 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047812E82847A29600B59521 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047812E92847A29600B59521 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		047812EE2847A29600B59521 /* TENNIS MOTION WatchKit AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TENNIS MOTION WatchKit AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812F22847A29600B59521 /* TENNIS_MOTION_WatchKit_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENNIS_MOTION_WatchKit_AppTests.swift; sourceTree = "<group>"; };
+		047812F82847A29600B59521 /* TENNIS MOTION WatchKit AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TENNIS MOTION WatchKit AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		047812FC2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENNIS_MOTION_WatchKit_AppUITests.swift; sourceTree = "<group>"; };
+		047812FE2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TENNIS_MOTION_WatchKit_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		047813192847A2DA00B59521 /* WorkoutManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutManager.swift; sourceTree = "<group>"; };
+		0478131B2847A2EA00B59521 /* DeviceMotionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotionManager.swift; sourceTree = "<group>"; };
+		0478131D2847ACFF00B59521 /* TENNIS MOTION WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TENNIS MOTION WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		0478131F2847ACFF00B59521 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS8.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		047813212847AE5800B59521 /* WatchConnectivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnectivityManager.swift; sourceTree = "<group>"; };
+		049376982847CD2C00E80C6E /* TENNIS MOTION.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "TENNIS MOTION.entitlements"; sourceTree = "<group>"; };
+		049376992847CD2D00E80C6E /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		0493769B2847D51100E80C6E /* Shot_classifier 2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = "Shot_classifier 2.mlmodel"; sourceTree = "<group>"; };
+		0493769D2847FC0300E80C6E /* DataProcessingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataProcessingManager.swift; sourceTree = "<group>"; };
+		0493769F2848BAD300E80C6E /* Shot_classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Shot_classifier.mlmodel; sourceTree = "<group>"; };
+		049376A12848DDB200E80C6E /* Level_Fd.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Level_Fd.mlmodel; sourceTree = "<group>"; };
+		049376A32848DDB700E80C6E /* Level_Bd.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Level_Bd.mlmodel; sourceTree = "<group>"; };
+		049376A52848DDBF00E80C6E /* Level_FdV.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Level_FdV.mlmodel; sourceTree = "<group>"; };
+		049376A72848DDC500E80C6E /* Level_BdV.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Level_BdV.mlmodel; sourceTree = "<group>"; };
+		049376A92848DDC800E80C6E /* Level_S.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Level_S.mlmodel; sourceTree = "<group>"; };
+		049376AB2848DE7400E80C6E /* MachineLearningManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MachineLearningManager.swift; sourceTree = "<group>"; };
+		049AA4A9284E79CE002C7A09 /* tennis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tennis.png; path = ../../tennis.png; sourceTree = "<group>"; };
+		049AA4AB2850D31D002C7A09 /* Shot_classifier_grav_SVM copy.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = "Shot_classifier_grav_SVM copy.mlmodel"; path = "../../Shot_classifier_grav_SVM copy.mlmodel"; sourceTree = "<group>"; };
+		049AA4AD2850E225002C7A09 /* CART_classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CART_classifier.mlmodel; path = ../../CART_classifier.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0478129E2847A28F00B59521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0493769A2847CD2D00E80C6E /* HealthKit.framework in Frameworks */,
+				0467BB9D284A6B03006E1AAF /* Accessibility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812B42847A29300B59521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812BE2847A29300B59521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812D62847A29500B59521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049376902847BB4300E80C6E /* HealthKit.framework in Frameworks */,
+				0467BB9F284A6B54006E1AAF /* Accessibility.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812EB2847A29600B59521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812F52847A29600B59521 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AADE2D0DAE7E96C21469DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047812982847A28F00B59521 = {
+			isa = PBXGroup;
+			children = (
+				047813212847AE5800B59521 /* WatchConnectivityManager.swift */,
+				047812A32847A28F00B59521 /* TENNIS MOTION */,
+				047812BA2847A29300B59521 /* TENNIS MOTIONTests */,
+				047812C42847A29300B59521 /* TENNIS MOTIONUITests */,
+				047812CF2847A29300B59521 /* TENNIS MOTION WatchKit App */,
+				047812DD2847A29500B59521 /* TENNIS MOTION WatchKit Extension */,
+				047812F12847A29600B59521 /* TENNIS MOTION WatchKit AppTests */,
+				047812FB2847A29600B59521 /* TENNIS MOTION WatchKit AppUITests */,
+				047812A22847A28F00B59521 /* Products */,
+				0478131E2847ACFF00B59521 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		047812A22847A28F00B59521 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047812A12847A28F00B59521 /* TENNIS MOTION.app */,
+				047812B72847A29300B59521 /* TENNIS MOTIONTests.xctest */,
+				047812C12847A29300B59521 /* TENNIS MOTIONUITests.xctest */,
+				047812CB2847A29300B59521 /* TENNIS MOTION WatchKit App.app */,
+				047812D92847A29500B59521 /* TENNIS MOTION WatchKit Extension.appex */,
+				047812EE2847A29600B59521 /* TENNIS MOTION WatchKit AppTests.xctest */,
+				047812F82847A29600B59521 /* TENNIS MOTION WatchKit AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047812A32847A28F00B59521 /* TENNIS MOTION */ = {
+			isa = PBXGroup;
+			children = (
+				049376982847CD2C00E80C6E /* TENNIS MOTION.entitlements */,
+				049376A52848DDBF00E80C6E /* Level_FdV.mlmodel */,
+				049376A92848DDC800E80C6E /* Level_S.mlmodel */,
+				0467BBAC284BD163006E1AAF /* Shot_classifier_grav.mlmodel */,
+				049AA4AB2850D31D002C7A09 /* Shot_classifier_grav_SVM copy.mlmodel */,
+				0467BBA8284BD155006E1AAF /* Level_Fd_grav.mlmodel */,
+				049376A32848DDB700E80C6E /* Level_Bd.mlmodel */,
+				049AA4AD2850E225002C7A09 /* CART_classifier.mlmodel */,
+				0467BBA4284BD147006E1AAF /* Level_S_grav.mlmodel */,
+				049376A72848DDC500E80C6E /* Level_BdV.mlmodel */,
+				0467BBA6284BD151006E1AAF /* Level_BdV_grav.mlmodel */,
+				049376A12848DDB200E80C6E /* Level_Fd.mlmodel */,
+				0467BBA2284BD13D006E1AAF /* Level_Bd_grav.mlmodel */,
+				0467BBAA284BD15B006E1AAF /* Level_FdV_grav.mlmodel */,
+				0493769B2847D51100E80C6E /* Shot_classifier 2.mlmodel */,
+				0493769F2848BAD300E80C6E /* Shot_classifier.mlmodel */,
+				047812A42847A28F00B59521 /* AppDelegate.swift */,
+				047812A62847A28F00B59521 /* SceneDelegate.swift */,
+				049AA4A9284E79CE002C7A09 /* tennis.png */,
+				047812A82847A28F00B59521 /* ViewController.swift */,
+				047812AA2847A28F00B59521 /* Main.storyboard */,
+				047812AD2847A29200B59521 /* Assets.xcassets */,
+				047812AF2847A29200B59521 /* LaunchScreen.storyboard */,
+				047812B22847A29200B59521 /* Info.plist */,
+				0493769D2847FC0300E80C6E /* DataProcessingManager.swift */,
+				049376AB2848DE7400E80C6E /* MachineLearningManager.swift */,
+				0467BBAE284C079B006E1AAF /* ViewController2.swift */,
+			);
+			path = "TENNIS MOTION";
+			sourceTree = "<group>";
+		};
+		047812BA2847A29300B59521 /* TENNIS MOTIONTests */ = {
+			isa = PBXGroup;
+			children = (
+				047812BB2847A29300B59521 /* TENNIS_MOTIONTests.swift */,
+			);
+			path = "TENNIS MOTIONTests";
+			sourceTree = "<group>";
+		};
+		047812C42847A29300B59521 /* TENNIS MOTIONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047812C52847A29300B59521 /* TENNIS_MOTIONUITests.swift */,
+				047812C72847A29300B59521 /* TENNIS_MOTIONUITestsLaunchTests.swift */,
+			);
+			path = "TENNIS MOTIONUITests";
+			sourceTree = "<group>";
+		};
+		047812CF2847A29300B59521 /* TENNIS MOTION WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				047812D02847A29300B59521 /* Interface.storyboard */,
+				047812D32847A29400B59521 /* Assets.xcassets */,
+			);
+			path = "TENNIS MOTION WatchKit App";
+			sourceTree = "<group>";
+		};
+		047812DD2847A29500B59521 /* TENNIS MOTION WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0478131D2847ACFF00B59521 /* TENNIS MOTION WatchKit Extension.entitlements */,
+				047812DE2847A29500B59521 /* InterfaceController.swift */,
+				047812E02847A29500B59521 /* ExtensionDelegate.swift */,
+				047812E22847A29500B59521 /* NotificationController.swift */,
+				047812E42847A29500B59521 /* ComplicationController.swift */,
+				047812E62847A29600B59521 /* Assets.xcassets */,
+				047812E82847A29600B59521 /* Info.plist */,
+				047812E92847A29600B59521 /* PushNotificationPayload.apns */,
+				047813192847A2DA00B59521 /* WorkoutManager.swift */,
+				0478131B2847A2EA00B59521 /* DeviceMotionManager.swift */,
+			);
+			path = "TENNIS MOTION WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		047812F12847A29600B59521 /* TENNIS MOTION WatchKit AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				047812F22847A29600B59521 /* TENNIS_MOTION_WatchKit_AppTests.swift */,
+			);
+			path = "TENNIS MOTION WatchKit AppTests";
+			sourceTree = "<group>";
+		};
+		047812FB2847A29600B59521 /* TENNIS MOTION WatchKit AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				047812FC2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITests.swift */,
+				047812FE2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITestsLaunchTests.swift */,
+			);
+			path = "TENNIS MOTION WatchKit AppUITests";
+			sourceTree = "<group>";
+		};
+		0478131E2847ACFF00B59521 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0467BB9C284A6B02006E1AAF /* Accessibility.framework */,
+				0467BB9E284A6B25006E1AAF /* Accessibility.framework */,
+				049376992847CD2D00E80C6E /* HealthKit.framework */,
+				0478131F2847ACFF00B59521 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047812A02847A28F00B59521 /* TENNIS MOTION */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478130A2847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION" */;
+			buildPhases = (
+				0478129D2847A28F00B59521 /* Sources */,
+				0478129E2847A28F00B59521 /* Frameworks */,
+				0478129F2847A28F00B59521 /* Resources */,
+				047813092847A29600B59521 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047812CE2847A29300B59521 /* PBXTargetDependency */,
+			);
+			name = "TENNIS MOTION";
+			productName = "TENNIS MOTION";
+			productReference = 047812A12847A28F00B59521 /* TENNIS MOTION.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047812B62847A29300B59521 /* TENNIS MOTIONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0478130D2847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTIONTests" */;
+			buildPhases = (
+				047812B32847A29300B59521 /* Sources */,
+				047812B42847A29300B59521 /* Frameworks */,
+				047812B52847A29300B59521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047812B92847A29300B59521 /* PBXTargetDependency */,
+			);
+			name = "TENNIS MOTIONTests";
+			productName = "TENNIS MOTIONTests";
+			productReference = 047812B72847A29300B59521 /* TENNIS MOTIONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047812C02847A29300B59521 /* TENNIS MOTIONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047813102847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTIONUITests" */;
+			buildPhases = (
+				047812BD2847A29300B59521 /* Sources */,
+				047812BE2847A29300B59521 /* Frameworks */,
+				047812BF2847A29300B59521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047812C32847A29300B59521 /* PBXTargetDependency */,
+			);
+			name = "TENNIS MOTIONUITests";
+			productName = "TENNIS MOTIONUITests";
+			productReference = 047812C12847A29300B59521 /* TENNIS MOTIONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		047812CA2847A29300B59521 /* TENNIS MOTION WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047813062847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit App" */;
+			buildPhases = (
+				047812C92847A29300B59521 /* Resources */,
+				047813052847A29600B59521 /* Embed App Extensions */,
+				75AADE2D0DAE7E96C21469DF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047812DC2847A29500B59521 /* PBXTargetDependency */,
+			);
+			name = "TENNIS MOTION WatchKit App";
+			productName = "TENNIS MOTION WatchKit App";
+			productReference = 047812CB2847A29300B59521 /* TENNIS MOTION WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		047812D82847A29500B59521 /* TENNIS MOTION WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047813022847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit Extension" */;
+			buildPhases = (
+				047812D52847A29500B59521 /* Sources */,
+				047812D62847A29500B59521 /* Frameworks */,
+				047812D72847A29500B59521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TENNIS MOTION WatchKit Extension";
+			productName = "TENNIS MOTION WatchKit Extension";
+			productReference = 047812D92847A29500B59521 /* TENNIS MOTION WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		047812ED2847A29600B59521 /* TENNIS MOTION WatchKit AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047813132847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit AppTests" */;
+			buildPhases = (
+				047812EA2847A29600B59521 /* Sources */,
+				047812EB2847A29600B59521 /* Frameworks */,
+				047812EC2847A29600B59521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047812F02847A29600B59521 /* PBXTargetDependency */,
+			);
+			name = "TENNIS MOTION WatchKit AppTests";
+			productName = "TENNIS MOTION WatchKit AppTests";
+			productReference = 047812EE2847A29600B59521 /* TENNIS MOTION WatchKit AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047812F72847A29600B59521 /* TENNIS MOTION WatchKit AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047813162847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit AppUITests" */;
+			buildPhases = (
+				047812F42847A29600B59521 /* Sources */,
+				047812F52847A29600B59521 /* Frameworks */,
+				047812F62847A29600B59521 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047812FA2847A29600B59521 /* PBXTargetDependency */,
+			);
+			name = "TENNIS MOTION WatchKit AppUITests";
+			productName = "TENNIS MOTION WatchKit AppUITests";
+			productReference = 047812F82847A29600B59521 /* TENNIS MOTION WatchKit AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047812992847A28F00B59521 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					047812A02847A28F00B59521 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					047812B62847A29300B59521 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 047812A02847A28F00B59521;
+					};
+					047812C02847A29300B59521 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 047812A02847A28F00B59521;
+					};
+					047812CA2847A29300B59521 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					047812D82847A29500B59521 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					047812ED2847A29600B59521 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 047812D82847A29500B59521;
+					};
+					047812F72847A29600B59521 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = 047812CA2847A29300B59521;
+					};
+				};
+			};
+			buildConfigurationList = 0478129C2847A28F00B59521 /* Build configuration list for PBXProject "TENNIS MOTION" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047812982847A28F00B59521;
+			productRefGroup = 047812A22847A28F00B59521 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047812A02847A28F00B59521 /* TENNIS MOTION */,
+				047812B62847A29300B59521 /* TENNIS MOTIONTests */,
+				047812C02847A29300B59521 /* TENNIS MOTIONUITests */,
+				047812CA2847A29300B59521 /* TENNIS MOTION WatchKit App */,
+				047812D82847A29500B59521 /* TENNIS MOTION WatchKit Extension */,
+				047812ED2847A29600B59521 /* TENNIS MOTION WatchKit AppTests */,
+				047812F72847A29600B59521 /* TENNIS MOTION WatchKit AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0478129F2847A28F00B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812B12847A29200B59521 /* LaunchScreen.storyboard in Resources */,
+				047812AE2847A29200B59521 /* Assets.xcassets in Resources */,
+				049AA4AA284E79CE002C7A09 /* tennis.png in Resources */,
+				047812AC2847A28F00B59521 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812B52847A29300B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812BF2847A29300B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812C92847A29300B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812D42847A29400B59521 /* Assets.xcassets in Resources */,
+				047812D22847A29300B59521 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812D72847A29500B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812E72847A29600B59521 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812EC2847A29600B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812F62847A29600B59521 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0478129D2847A28F00B59521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0467BBA7284BD151006E1AAF /* Level_BdV_grav.mlmodel in Sources */,
+				049376A02848BAD300E80C6E /* Shot_classifier.mlmodel in Sources */,
+				049376A22848DDB200E80C6E /* Level_Fd.mlmodel in Sources */,
+				049376A62848DDBF00E80C6E /* Level_FdV.mlmodel in Sources */,
+				047812A92847A28F00B59521 /* ViewController.swift in Sources */,
+				0467BBAF284C079C006E1AAF /* ViewController2.swift in Sources */,
+				0467BBA9284BD155006E1AAF /* Level_Fd_grav.mlmodel in Sources */,
+				0467BBAB284BD15B006E1AAF /* Level_FdV_grav.mlmodel in Sources */,
+				0467BBA5284BD147006E1AAF /* Level_S_grav.mlmodel in Sources */,
+				049376A42848DDB700E80C6E /* Level_Bd.mlmodel in Sources */,
+				049376AA2848DDC800E80C6E /* Level_S.mlmodel in Sources */,
+				047812A52847A28F00B59521 /* AppDelegate.swift in Sources */,
+				049376A82848DDC500E80C6E /* Level_BdV.mlmodel in Sources */,
+				049AA4AE2850E226002C7A09 /* CART_classifier.mlmodel in Sources */,
+				0467BBAD284BD163006E1AAF /* Shot_classifier_grav.mlmodel in Sources */,
+				049376972847C50600E80C6E /* WatchConnectivityManager.swift in Sources */,
+				047812A72847A28F00B59521 /* SceneDelegate.swift in Sources */,
+				0493769E2847FC0400E80C6E /* DataProcessingManager.swift in Sources */,
+				0467BBA3284BD141006E1AAF /* Level_Bd_grav.mlmodel in Sources */,
+				049376AC2848DE7400E80C6E /* MachineLearningManager.swift in Sources */,
+				049AA4AC2850D31F002C7A09 /* Shot_classifier_grav_SVM copy.mlmodel in Sources */,
+				0493769C2847D51100E80C6E /* Shot_classifier 2.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812B32847A29300B59521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812BC2847A29300B59521 /* TENNIS_MOTIONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812BD2847A29300B59521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812C62847A29300B59521 /* TENNIS_MOTIONUITests.swift in Sources */,
+				047812C82847A29300B59521 /* TENNIS_MOTIONUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812D52847A29500B59521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812E32847A29500B59521 /* NotificationController.swift in Sources */,
+				047812E52847A29500B59521 /* ComplicationController.swift in Sources */,
+				0478131A2847A2DA00B59521 /* WorkoutManager.swift in Sources */,
+				047812E12847A29500B59521 /* ExtensionDelegate.swift in Sources */,
+				047812DF2847A29500B59521 /* InterfaceController.swift in Sources */,
+				0478131C2847A2EA00B59521 /* DeviceMotionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812EA2847A29600B59521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812F32847A29600B59521 /* TENNIS_MOTION_WatchKit_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047812F42847A29600B59521 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047812FF2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITestsLaunchTests.swift in Sources */,
+				047812FD2847A29600B59521 /* TENNIS_MOTION_WatchKit_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047812B92847A29300B59521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047812A02847A28F00B59521 /* TENNIS MOTION */;
+			targetProxy = 047812B82847A29300B59521 /* PBXContainerItemProxy */;
+		};
+		047812C32847A29300B59521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047812A02847A28F00B59521 /* TENNIS MOTION */;
+			targetProxy = 047812C22847A29300B59521 /* PBXContainerItemProxy */;
+		};
+		047812CE2847A29300B59521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047812CA2847A29300B59521 /* TENNIS MOTION WatchKit App */;
+			targetProxy = 047812CD2847A29300B59521 /* PBXContainerItemProxy */;
+		};
+		047812DC2847A29500B59521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047812D82847A29500B59521 /* TENNIS MOTION WatchKit Extension */;
+			targetProxy = 047812DB2847A29500B59521 /* PBXContainerItemProxy */;
+		};
+		047812F02847A29600B59521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047812D82847A29500B59521 /* TENNIS MOTION WatchKit Extension */;
+			targetProxy = 047812EF2847A29600B59521 /* PBXContainerItemProxy */;
+		};
+		047812FA2847A29600B59521 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047812CA2847A29300B59521 /* TENNIS MOTION WatchKit App */;
+			targetProxy = 047812F92847A29600B59521 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047812AA2847A28F00B59521 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047812AB2847A28F00B59521 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047812AF2847A29200B59521 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047812B02847A29200B59521 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		047812D02847A29300B59521 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047812D12847A29300B59521 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		047813002847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047813012847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		047813032847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "TENNIS MOTION WatchKit Extension/TENNIS MOTION WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TENNIS MOTION WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TENNIS MOTION WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = TENNIS_MOTION_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = TENNIS_MOTION_WatchKit_Extension.ExtensionDelegate;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		047813042847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "TENNIS MOTION WatchKit Extension/TENNIS MOTION WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				EMBED_ASSET_PACKS_IN_PRODUCT_BUNDLE = NO;
+				ENABLE_ON_DEMAND_RESOURCES = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TENNIS MOTION WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "TENNIS MOTION WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = TENNIS_MOTION_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = TENNIS_MOTION_WatchKit_Extension.ExtensionDelegate;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		047813072847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TENNIS_MOTION_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TENNIS MOTION WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Karim.TENNIS-MOTION";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		047813082847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = TENNIS_MOTION_WatchKit_Extension;
+				INFOPLIST_KEY_CFBundleDisplayName = "TENNIS MOTION WatchKit App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Karim.TENNIS-MOTION";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		0478130B2847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TENNIS MOTION/TENNIS MOTION.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TENNIS MOTION/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0478130C2847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "TENNIS MOTION/TENNIS MOTION.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "TENNIS MOTION/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0478130E2847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTIONTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENNIS MOTION.app/TENNIS MOTION";
+			};
+			name = Debug;
+		};
+		0478130F2847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTIONTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENNIS MOTION.app/TENNIS MOTION";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047813112847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTIONUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TENNIS MOTION";
+			};
+			name = Debug;
+		};
+		047813122847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTIONUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "TENNIS MOTION";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047813142847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENNIS MOTION WatchKit Extension.appex/TENNIS MOTION WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		047813152847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION-WatchKit-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TENNIS MOTION WatchKit Extension.appex/TENNIS MOTION WatchKit Extension";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+		047813172847A29600B59521 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TENNIS MOTION WatchKit App";
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Debug;
+		};
+		047813182847A29600B59521 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 254B425432;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Karim.TENNIS-MOTION-WatchKit-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "TENNIS MOTION WatchKit App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0478129C2847A28F00B59521 /* Build configuration list for PBXProject "TENNIS MOTION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047813002847A29600B59521 /* Debug */,
+				047813012847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047813022847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047813032847A29600B59521 /* Debug */,
+				047813042847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047813062847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047813072847A29600B59521 /* Debug */,
+				047813082847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478130A2847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478130B2847A29600B59521 /* Debug */,
+				0478130C2847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0478130D2847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTIONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0478130E2847A29600B59521 /* Debug */,
+				0478130F2847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047813102847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTIONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047813112847A29600B59521 /* Debug */,
+				047813122847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047813132847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047813142847A29600B59521 /* Debug */,
+				047813152847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047813162847A29600B59521 /* Build configuration list for PBXNativeTarget "TENNIS MOTION WatchKit AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047813172847A29600B59521 /* Debug */,
+				047813182847A29600B59521 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047812992847A28F00B59521 /* Project object */;
+}
